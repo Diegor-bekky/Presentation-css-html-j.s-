@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="username" name="username" placeholder="Enter username">
+    <button onclick="greetUser()">Greet</button>
+
+    <p id="feedback"></p>
+
+    <h3>Login Form</h3>
+
+        <input type="text" id="email" name="email" placeholder="Enter mail">
+        <br><br>
+        <input type="password" id="password" placeholder="Enter password">
+        <br><br>
+        <button onclick="validateForm()">Login</button>
+    </form>
+
+
+    <p id="response"></p>
+
+    <h3>Cart Calculator</h3>
+    <input type="text" id="itemName" placeholder="Enter Item Name">
+    <input type="number" id="price" placeholder="Enter" Price>
+    <input type="number" id="qty" placeholder="Enter Quantity">
+    <br><br>
+    <button onclick="calTotal()">Calculate Total</button>
+    
+    <p id="cartResponse"></p>
+
+    <h3>Age Eligibility Checker</h3>
+    <input type="number" id="age"  placeholder="Enter Age">
+    <button onclick="checkAGE()">Check Eligibility</button>
+
+    <p  id="ageRes"></p>
+
+    <h3>Character Counter</h3>
+    <textarea name="message" id="message" placeholder="Enter Message" onkeyup="countCharacter()"></textarea>
+
+    <p id="counter">0 Characters</p>
+
+    <script src="class7.js"></script>
+</body>
+</html>
